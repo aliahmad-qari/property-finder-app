@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Home, Ruler } from 'lucide-react';
+import glassParvillionImg from '../../images/The Glass Pavilion.jpg';
+import skylinePenthouseImg from '../../images/Skyline Penthouse.jpg';
+import desertOasisImg from '../../images/Desert Oasis.jpg';
+import coastalRetreatImg from '../../images/Coastal Retreat.jpg';
 
 const CuratedListingsSection: React.FC = () => {
   return (
@@ -37,7 +41,7 @@ const CuratedListingsSection: React.FC = () => {
           <div className="col-span-12 md:col-span-8 rounded-2xl overflow-hidden shadow-lg relative group">
             <div className="relative h-[500px]">
               <img 
-                src="/src/images/The Glass Pavilion.jpg" 
+                src={glassParvillionImg}
                 alt="The Glass Pavilion luxury villa in Montecito California" 
                 className="absolute inset-0 w-full h-full object-cover" 
                 loading="eager"
@@ -70,7 +74,7 @@ const CuratedListingsSection: React.FC = () => {
           <div className="col-span-12 md:col-span-4 rounded-2xl overflow-hidden shadow-lg relative group">
             <div className="relative h-[500px]">
               <img 
-                src="/src/images/Skyline Penthouse.jpg" 
+                src={skylinePenthouseImg}
                 alt="Skyline Penthouse luxury apartment in New York NY" 
                 className="absolute inset-0 w-full h-full object-cover" 
                 loading="lazy"
@@ -88,7 +92,7 @@ const CuratedListingsSection: React.FC = () => {
           <div className="col-span-12 md:col-span-4 rounded-2xl overflow-hidden shadow-lg aspect-square">
             <div className="relative h-full">
               <img 
-                src="/src/images/Desert Oasis.jpg" 
+                src={desertOasisImg}
                 alt="Desert Oasis modern home in Joshua Tree CA" 
                 className="absolute inset-0 w-full h-full object-cover" 
                 loading="lazy"
@@ -106,7 +110,7 @@ const CuratedListingsSection: React.FC = () => {
           <div className="col-span-12 md:col-span-8 rounded-2xl overflow-hidden shadow-lg relative">
             <div className="relative h-[800px]">
               <img 
-                src="/src/images/Coastal Retreat.jpg" 
+                src={coastalRetreatImg}
                 alt="Coastal Retreat mansion in Malibu California" 
                 className="absolute inset-0 w-full h-full object-cover" 
                 loading="lazy"
